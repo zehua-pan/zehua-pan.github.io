@@ -1,10 +1,10 @@
 # Site settings
 title: My Blog
-SEOTitle: james'blog | My Blog
+SEOTitle: zehua's blog | My Blog
 header-img: img/post-bg-desk.jpg
 email: jame.chump@yandex.com
 description: "Shall I compare thee to a summer's day?"
-keyword: "james'blog, tutorial, linux"
+keyword: "zehua's blog, tutorial, linux"
 url: "http://qiubaiying.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/qiubaiying/qiubaiying.github.io.git" # you code repository
