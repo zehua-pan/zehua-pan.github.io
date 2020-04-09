@@ -3,7 +3,7 @@ title: My Blog
 SEOTitle: zehua's blog | My Blog
 header-img: img/post-bg-hack.jpg
 email: jame.chump@yandex.com
-description: "Shall I compare thee to a summer's day?"
+description: "try everything"
 keyword: "zehua's blog, tutorial, linux"
 url: "http://zehua-pan.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
@@ -52,7 +52,7 @@ kramdown:
 
 # 评论系统
 #Disqus（https://disqus.com/）
-disqus_username: zehua-pan
+#disqus_username: zehua-pan
 
 # Gitalk
 gitalk:
@@ -80,8 +80,8 @@ gitalk:
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true                    # 是否使用首页标签
+featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
 
 
 
