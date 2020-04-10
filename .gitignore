@@ -34,7 +34,11 @@ Temporary Items
 # debug file
 _site
 
+## custom
 # file related to jekyll
 Gemfile
 Gemfile.lock
 .jekyll*
+
+# command line file
+*.sh
