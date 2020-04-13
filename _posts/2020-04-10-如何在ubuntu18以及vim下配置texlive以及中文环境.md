@@ -12,7 +12,7 @@ tags:
     - vim
 ---
 # 前言
-最近想要学习latex以便做简历。然后自己用的操作系统是ubuntu18.04，习惯用vim作为各种软件和高级语言的文本编辑器，所以也想着用vim来完成对latex的编译，做一个忠实的vim粉。最后经过艰难的探索决定写这篇文章来记录一下安装latex的过程，方便以后参考。
+最近想要学习latex以便做简历。然后自己用的操作系统是ubuntu18.04，习惯用vim作为各种软件和高级语言的文本编辑器，所以也想着用vim来完成对latex的编译，做一个忠实的vim粉。经过艰难的探索后决定写这篇文章来记录一下安装latex的过程，方便以后参考。转载请注明出处，感谢。
 
 # 平台和配置
 + ubuntu18.04
@@ -55,7 +55,7 @@ hello,你好
 
 \end{document}
 ```
-然后报错
+然后在vim的界面里面报错
 ```vim
 File `xeCJK.sty' not found.
 ```
@@ -68,8 +68,7 @@ sudo apt install texlive-xetex
 /usr/share/texlive/texmf-dist/tex/xelatex/xecjk/xeCJK.sty|43 error| Critical xeCJK error: "Require-XeTeX"
 You must change your typesetting engine to "xelatex"
 ```
-这里只截取了部分报错信息，大体上就是说引擎是装了，但是还没有换上。通过搜索发现，在vimtex和latexmk的环境下，引擎是可以自定义更改的，只需要在.vimrc文件中加上以下的配置
-
+这里只截取了部分报错信息，大体上就是说引擎是装了，但是还没有换上。通过搜索发现，在vimtex和latexmk的环境下，引擎是可以自定义更改的，只需要在.vimrc文件中加上以下的配置  
 代码出处：https://tex.stackexchange.com/questions/392198/vimtex-and-xelatex
 ```vim
 let g:vimtex_compiler_latexmk = { 
