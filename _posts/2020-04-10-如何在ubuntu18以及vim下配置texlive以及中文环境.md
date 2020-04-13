@@ -69,6 +69,8 @@ sudo apt install texlive-xetex
 You must change your typesetting engine to "xelatex"
 ```
 这里只截取了部分报错信息，大体上就是说引擎是装了，但是还没有换上。通过搜索发现，在vimtex和latexmk的环境下，引擎是可以自定义更改的，只需要在.vimrc文件中加上以下的配置
+
+代码出处：https://tex.stackexchange.com/questions/392198/vimtex-and-xelatex
 ```vim
 let g:vimtex_compiler_latexmk = { 
         \ 'executable' : 'latexmk',
@@ -86,4 +88,4 @@ let g:vimtex_compiler_latexmk = {
 + https://tex.stackexchange.com/questions/134365/installation-of-texlive-full-on-ubuntu-12-04
 + https://liam.page/2018/11/26/introduction-to-TeX-engine-format-and-distribution/
 + https://blog.csdn.net/qq_41814939/article/details/82288145
-
++ https://tex.stackexchange.com/questions/392198/vimtex-and-xelatex
